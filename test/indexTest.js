@@ -13,6 +13,8 @@ describe("index", () => {
     });
   });
 
+
+
   describe("returnsANamedFunction()", () => {
     var fn;
 
@@ -29,6 +31,9 @@ describe("index", () => {
     });
   });
 
+
+
+  
   describe("returnsAnAnonymousFunction()", () => {
     var fn;
 
