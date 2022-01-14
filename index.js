@@ -1,14 +1,17 @@
 
 function receivesAFunction (spy){
 console.log(spy());
+return 'chai'
+}
+const returnFirstTwoDrivers = function (){
+    
 }
 
-
 function returnsANamedFunction () {
-    
-    return 'a function'
+   return 'chai-spies'
+   
 }
 
 const returnsAnAnonymousFuction = function (){
-    return 'a function'
+   return 'chai'
 }
