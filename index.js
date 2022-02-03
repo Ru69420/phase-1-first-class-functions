@@ -1,17 +1,16 @@
 
-function receivesAFunction (spy){
-console.log(spy());
-return 'chai'
-}
-const returnFirstTwoDrivers = function (){
-    
+function receivesAFunction(spy) {
+   spy();
 }
 
-function returnsANamedFunction () {
-   return 'chai-spies'
-   
+
+
+function returnsANamedFunction() {
+   const three = function() {return 3};
+   return three;
 }
 
-const returnsAnAnonymousFuction = function (){
-   return 'chai'
+function returnsAnAnonymousFunction() {
+   return function(){return 3};
 }
+
